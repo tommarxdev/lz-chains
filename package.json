@@ -1,0 +1,29 @@
+{
+  "name": "lz-chains",
+  "version": "0.0.51",
+  "description": "LayerZero SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "test": "tsdx test --passWithNoTests"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "tsdx": "^0.14.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "gitHead": "7a6104c19337083d628252678f3b09effec81542"
+}
+
+
+ 
